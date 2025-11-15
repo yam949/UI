@@ -1,29 +1,8 @@
-# Hygieia UI
-gieia/UI.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Hygieia/UI/alerts/)
 
-As a part of making Hygieia more modular, this repo will host Hygieia UI code.
-
-This project requires Angular CLI version 8.0.3.
-This project requires java version : openjdk version "1.8.0_265"
-
-# Table of Contents
-* [Setup](#setup)
-* [Build and run the executable file for the api ](#build-and-run-the-executable-file-for-the-api)
-* [Build the Project](#build-the-project)
-* [Development server](#development-server)
-* [Running unit tests](#running-unit-tests)
-* [Debugging with IntelliJ](#debugging-with-intellij)
-* [Code scaffolding](#code-scaffolding)
 * [Running tests](#running-tests)
 * [Further help](#further-help)
 
-## Setup:
-For the new Hygieia UI, you'll need to build the UI and API. Hygieia core is NOT required for this new UI.  
-
-1. Fork and clone the UI folder
-2. Navigate to your UI folder and install the package dependencies by running `npm install`
-3. Download Angular CLI by running `npm install -g @angular/cli@8.0.3`
-4. You can run `ng version` to check your Angular CLI version and related package dependency versions (make sure the package versions are v8)
+ Angular CLI version and related package dependency versions (make sure the package versions are v8)
 
 ## Build and run the executable file for the api 
 
