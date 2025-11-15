@@ -134,32 +134,31 @@ Versions of node and npm used => node version v12.18.3 , npm version  6.14.6
 
 In the UI/ folder :
 
-Install gulp using command : npm install -g gulp 
+Install -g gulp 
 
 To check the version : gulp -v 
 
 You then have to install gulp locally on a per-project basis :  npm install gulp --save-dev
 
-*If gulp is listed in the package.json (Under the UI folder) under 'dependencies' , then replace '--save-dev' with just '--save' 
-
+*If gulp is listed in the package.json (Under the UI folder) under 'dependencies' , then replace 
 With the api running, open a different terminal and run `gulp build` in your \UI folder. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build. 
 
-To launch the dashboard : In the same UI/ folder run the command : gulp serve 
+To launch the I/ folder run the command : gulp serve 
 
 
-## Development server
+## Development 
 
-In the \UI folder, run `ng serve` for a dev server. Navigate to `http://localhost:4200/` in a incognito browser. The app will automatically reload if you change any of the source files.
+In the \UI folder, run `ng serve` for a dev server. Navigate to `http://localhost:4200/`  automatically reload if you change any of the source files.
  
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).  You can also debug using Karma.
+Run `ng test` to execute the unit ).  You can also debug using Karma.
 
 An alternative method to run unit tests is to run `npm run test-headless` in your UI folder in a terminal.  This will also test your code coverage. 
 
-## Debugging with IntelliJ
 
-If you are using IntelliJ, you can debug with JavaScript Debug.  Navigate to the `Edit Configurations` tab, hit the + sign to `Add New Configuration,` and add `JavaScript Debug.`
+
+If you are using IntelliJ, you can debug with JavaScript Debug.  Navigate to the `Edit Configurations` tab, hit the + sign to `Add ipt Debug.`
 
 Inside the `Run/Debug Configurations` popup, you can edit the name to your preference and change the URL to `http://localhost:4200.`  This will allow you to navigate the UI on localhost to hit the debug breakpoints you set.
 
@@ -171,9 +170,9 @@ Note: When you start the debug property, it will open a new browser popup for de
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Running tests
+## t
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Run `ng e2e` to execute the end-to-end org/).
 
 ## Further help
 
